@@ -1,0 +1,93 @@
+﻿@layout RegisterLayout
+@page "/register"
+
+@using desafio_picpay.Client.Layout
+@using System.ComponentModel.DataAnnotations
+
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+
+@rendermode InteractiveServer
+
+<EditForm Model="newUser" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group mt-3">
+        <label for="CPF">CPF</label>
+        <InputText @bind-Value="newUser.CPF" class="form-control text-center" />
+        <ValidationMessage For="@(() => newUser.CPF)" />
+    </div>
+    <div class="form-group mt-3">
+        <label for="Name">Name</label>
+        <InputText @bind-Value="newUser.Name" class="form-control" />
+        <ValidationMessage For="@(() => newUser.Name)" />
+    </div>
+    <div class="form-group mt-3">
+        <label for="Surname">Surname</label>
+        <InputText @bind-Value="newUser.Surname" class="form-control" />
+        <ValidationMessage For="@(() => newUser.Surname)" />
+    </div>
+    <div class="form-group mt-3">
+        <label for="Email">Email</label>
+        <InputText @bind-Value="newUser.Email" type="email" class="form-control" />
+        <ValidationMessage For="@(() => newUser.Email)" />
+    </div>
+    <div class="form-group mt-3">
+        <label for="Password">Password</label>
+        <InputText @bind-Value="newUser.Password" type="password" class="form-control" />
+        <ValidationMessage For="@(() => newUser.Password)" />
+    </div>
+    <div class="form-group mt-3 mb-3">
+        <label for="Type">Choose an option:</label>
+        <InputSelect @bind-Value="newUser.Type" class="form-control">
+            <option value="">Select...</option>
+            @foreach (var option in options)
+            {
+                <option value="@option">@option</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => newUser.Type)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100 mt-3">Register</button>
+    <button type="button" class="btn btn-secondary w-100 mt-3" @onclick="GoBack">Back</button>
+</EditForm>
+
+@code {
+    private User newUser = new User();
+    private List<string> options = new List<string> { "Shopkeeper", "User" };
+
+    private async void HandleRegister()
+    {
+        try
+        {
+            string uri = string.Empty;
+
+            if (newUser.Type == "Shopkeeper")
+            {
+                uri = string.Concat(new string[] { NavigationManager.BaseUri, "api/shopkeeper/create" });
+            }
+            else if (newUser.Type == "User")
+            {
+                uri = string.Concat(new string[] { NavigationManager.BaseUri, "api/user/create" });
+
+            }
+
+            var response = await HttpClient.PostAsJsonAsync(uri, newUser);
+
+            if (response.IsSuccessStatusCode)
+            {
+               NavigationManager.NavigateTo("/login");
+            }
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/login");
+    }
+}

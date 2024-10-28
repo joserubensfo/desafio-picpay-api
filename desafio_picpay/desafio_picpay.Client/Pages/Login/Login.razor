@@ -1,0 +1,49 @@
+﻿@page "/login"
+@layout LoginLayout
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+@using desafio_picpay.Client.Layout
+@using System.ComponentModel.DataAnnotations
+
+<EditForm Model="user" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group mt-3">
+        <label for="Username">CPF</label>
+        <InputText @bind-Value="user.CPF" class="form-control" />
+        <ValidationMessage For="@(() => user.CPF)" />
+    </div>
+    <div class="form-group mt-3">
+        <label for="Password">Password</label>
+        <InputText @bind-Value="user.Password" type="password" class="form-control" />
+        <ValidationMessage For="@(() => user.Password)" />
+    </div>
+    <div class="form-group mt-3" >
+        <button type="submit" class="btn btn-primary w-100 mt-3">Login</button> <!-- Espaçamento para o botão de login -->
+    </div>
+    <div class="form-group text-center mt-3">
+        <button type="button" class="btn btn-link" @onclick="GoToRegister">Sign-in</button>
+        <button type="button" class="btn btn-link" @onclick="GoToForgotPassword">Lost password?</button>
+    </div>
+</EditForm>
+
+@code {
+    private User user = new User();
+
+    private void HandleLogin()
+    {
+        NavigationManager.NavigateTo("/home");
+    }
+
+    private void GoToRegister()
+    {
+        NavigationManager.NavigateTo("/register");
+    }
+
+    private void GoToForgotPassword()
+    {
+        NavigationManager.NavigateTo("/forgot-password");
+    }
+}

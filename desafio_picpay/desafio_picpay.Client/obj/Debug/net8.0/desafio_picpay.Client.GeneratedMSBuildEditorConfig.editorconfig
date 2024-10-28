@@ -1,0 +1,51 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = desafio_picpay.Client
+build_property.RootNamespace = desafio_picpay.Client
+build_property.ProjectDir = C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/Layout/RegisterLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFJlZ2lzdGVyTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/Pages/Login/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/Pages/Login/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/Pages/Shopkeepers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcGtlZXBlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/Pages/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joser/source/repos/desafio_picpay/desafio_picpay/desafio_picpay.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

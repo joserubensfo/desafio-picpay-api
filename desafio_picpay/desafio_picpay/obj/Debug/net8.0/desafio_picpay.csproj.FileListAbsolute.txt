@@ -61,3 +61,7 @@ C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\obj\Deb
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\obj\Debug\net8.0\desafio_picpay.pdb
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\obj\Debug\net8.0\desafio_picpay.genruntimeconfig.cache
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\obj\Debug\net8.0\ref\desafio_picpay.dll
+C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\obj\Debug\net8.0\desafio_picpay.sourcelink.json
+C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\bin\Debug\net8.0\desafio_picpay.Shared.dll
+C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\bin\Debug\net8.0\desafio_picpay.Shared.pdb
+C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay\bin\Debug\net8.0\Blazored.Toast.dll

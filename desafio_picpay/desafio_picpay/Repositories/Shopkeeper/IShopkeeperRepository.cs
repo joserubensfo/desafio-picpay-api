@@ -1,6 +1,6 @@
 ﻿namespace desafio_picpay.Repositories.Shopkeeper
 {
-    public interface IShopkeeperRepository : IRepository<Models.Entities.Shopkeeper>
+    public interface IShopkeeperRepository : IRepository<Shared.Models.Entities.Shopkeeper>
     {
 
     }

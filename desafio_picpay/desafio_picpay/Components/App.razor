@@ -1,6 +1,17 @@
-﻿<!DOCTYPE html>
+﻿@using Blazored.Toast.Configuration
+<!DOCTYPE html>
 <html lang="en">
 
+<BlazoredToasts @rendermode="InteractiveServer"
+                Position="ToastPosition.BottomRight"
+                Timeout="5"
+                IconType="IconType.FontAwesome"
+                SuccessClass="success-toast-override"
+                SuccessIcon="fa fa-thumbs-up"
+                ErrorIcon="fa fa-bug"
+                RemoveToastsOnNavigation="false"
+                ShowProgressBar="true"
+                ShowCloseButton="true" />
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

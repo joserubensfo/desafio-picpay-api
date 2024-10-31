@@ -3,9 +3,11 @@
 
 @using desafio_picpay.Client.Layout
 @using System.ComponentModel.DataAnnotations
+@using desafio_picpay.Shared.Models.Entities
 
 @inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
+@inject IToastService ToastService
 
 @rendermode InteractiveServer
 
@@ -40,7 +42,6 @@
     <div class="form-group mt-3 mb-3">
         <label for="Type">Choose an option:</label>
         <InputSelect @bind-Value="newUser.Type" class="form-control">
-            <option value="">Select...</option>
             @foreach (var option in options)
             {
                 <option value="@option">@option</option>
@@ -63,26 +64,26 @@
         {
             string uri = string.Empty;
 
-            if (newUser.Type == "Shopkeeper")
+            if (newUser.Type == Entity.EType.Shopkeeper)
             {
                 uri = string.Concat(new string[] { NavigationManager.BaseUri, "api/shopkeeper/create" });
             }
-            else if (newUser.Type == "User")
+            else if (newUser.Type == Entity.EType.User)
             {
                 uri = string.Concat(new string[] { NavigationManager.BaseUri, "api/user/create" });
-
             }
 
             var response = await HttpClient.PostAsJsonAsync(uri, newUser);
 
             if (response.IsSuccessStatusCode)
             {
-               NavigationManager.NavigateTo("/login");
+                ToastService.ShowToast(ToastLevel.Success, "Registration completed successfully!");
+                NavigationManager.NavigateTo("/login");
             }
         }
         catch (Exception ex)
         {
-
+            throw ex;
         }
     }
 

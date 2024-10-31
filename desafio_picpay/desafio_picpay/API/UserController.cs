@@ -1,6 +1,6 @@
 ﻿using desafio_picpay.Factories.Entities;
 using desafio_picpay.Factories.Repositories;
-using desafio_picpay.Models.Entities;
+using desafio_picpay.Shared.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 
@@ -29,10 +29,10 @@ namespace desafio_picpay.API
                 var user = _entityFactory.Create(typeof(User), json) as User;
                 var repo = _repositoryFactory.GetRepository<User>();
 
-                if (user != null)
+                if (user is User objuser)
                 {
                     var userErrors = user.Validate();
-                    repo.Add(user);
+                    repo.Add(objuser);
                 }
 
                 return Results.Ok("success!");

@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Blazored.Toast/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Toast.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.5": {
         "type": "package",
         "dependencies": {
@@ -485,9 +505,39 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "desafio_picpay.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/desafio_picpay.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/desafio_picpay.Shared.dll": {}
+        }
       }
     },
     "net8.0/browser-wasm": {
+      "Blazored.Toast/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.2",
+          "Microsoft.AspNetCore.Components.Web": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Toast.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.5": {
         "type": "package",
         "dependencies": {
@@ -965,10 +1015,41 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "desafio_picpay.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/desafio_picpay.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/desafio_picpay.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Blazored.Toast/4.2.1": {
+      "sha512": "RuSGS8m21IejQ8EKXjZYEcCbgZEhyP7VptvyHjdRDKkJ3wxCqANKWvDxSKuExSbk1NLD1tySe8OpPYsdCeqvcw==",
+      "type": "package",
+      "path": "blazored.toast/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazored.toast.4.2.1.nupkg.sha512",
+        "blazored.toast.nuspec",
+        "build/Blazored.Toast.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazored.Toast.props",
+        "buildTransitive/Blazored.Toast.props",
+        "icon.png",
+        "lib/net6.0/Blazored.Toast.dll",
+        "lib/net7.0/Blazored.Toast.dll",
+        "lib/net8.0/Blazored.Toast.dll",
+        "staticwebassets/Blazored.Toast.bundle.scp.css"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/8.0.5": {
       "sha512": "vVx5fiR2ysWoZq1PcVkBdzw9g+E2gIPS26IvJslxnLapwXs4SXp+y5BbP4RSApOlQLTUeGL3TaG4y1Vt8V4eDA==",
       "type": "package",
@@ -1869,13 +1950,20 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "desafio_picpay.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../desafio_picpay.Shared/desafio_picpay.Shared.csproj",
+      "msbuildProject": "../../desafio_picpay.Shared/desafio_picpay.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Blazored.Toast >= 4.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.5",
       "Microsoft.NET.ILLink.Tasks >= 8.0.5",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.5"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.5",
+      "desafio_picpay.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1910,7 +1998,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay.Shared\\desafio_picpay.Shared.csproj": {
+              "projectPath": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay.Shared\\desafio_picpay.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1928,6 +2020,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Blazored.Toast": {
+            "target": "Package",
+            "version": "[4.2.1, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[8.0.5, )"

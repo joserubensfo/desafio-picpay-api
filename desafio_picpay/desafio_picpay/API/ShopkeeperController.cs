@@ -1,6 +1,6 @@
 ﻿using desafio_picpay.Factories.Entities;
 using desafio_picpay.Factories.Repositories;
-using desafio_picpay.Models.Entities;
+using desafio_picpay.Shared.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 

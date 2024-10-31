@@ -1,9 +1,9 @@
-using Swashbuckle.AspNetCore.Swagger;
 using desafio_picpay.Components;
 using desafio_picpay.Factories.Entities;
 using desafio_picpay.Factories.Repositories;
 using desafio_picpay.Repositories.Shopkeeper;
 using desafio_picpay.Repositories.User;
+using Blazored.Toast;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +12,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-//Adicionar controllers API
+//Add controllers API
 builder.Services.AddControllers();
 builder.Services.AddScoped<IShopkeeperRepository, ShopkeeperRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -23,12 +23,15 @@ builder.Services.AddLogging();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Adicionar HTTPclient
+//Add HTTPclient
 builder.Services.AddHttpClient();
+
+//Add Blazored Toast
+builder.Services.AddBlazoredToast();
 
 var app = builder.Build();
 
-//Aplicação do Swagger
+//Add Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseSwaggerUI(options => // UseSwaggerUI is called only in Development.

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.Toast" Version="4.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.9.0" />
@@ -17,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\desafio_picpay.Shared\desafio_picpay.Shared.csproj" />
     <ProjectReference Include="..\desafio_picpay.Client\desafio_picpay.Client.csproj" />
   </ItemGroup>
 

@@ -1,4 +1,4 @@
-﻿using desafio_picpay.Models.Entities;
+﻿using desafio_picpay.Shared.Models.Entities;
 using System.Text.Json;
 
 namespace desafio_picpay.Factories.Entities
@@ -7,24 +7,17 @@ namespace desafio_picpay.Factories.Entities
     {
         public Entity Create(Type typeEntity, JsonElement json)
         {
-            try
+            if (typeEntity == typeof(User))
             {
-                if(typeEntity == typeof(User))
-                {
-                    return json.Deserialize<Shopkeeper>()!;
-                }
-                else if(typeEntity == typeof(Shopkeeper))
-                {
-                    return json.Deserialize<Shopkeeper>()!;
-                }
-                else
-                {
-                   throw new ArgumentException("Tipo de entidade inválido.");
-                }
+                return json.Deserialize<User>()!;
             }
-            catch (JsonException ex)
+            else if (typeEntity == typeof(Shopkeeper))
             {
-                throw new InvalidOperationException("Erro ao desserializar o JSON para a entidade especificada.", ex);
+                return json.Deserialize<Shopkeeper>()!;
+            }
+            else
+            {
+                throw new ArgumentException("Incorrect user type.");
             }
         }
     }

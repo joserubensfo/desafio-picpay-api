@@ -1,14 +1,12 @@
-﻿using desafio_picpay.Models.Entities;
-
-namespace desafio_picpay.Repositories.User
+﻿namespace desafio_picpay.Repositories.User
 {
     public class UserRepository : IUserRepository
     {
-        public void Add(Models.Entities.User user)
+        public void Add(Shared.Models.Entities.User user)
         {
-            int lastID = StaticDataBase.tbUser.Last()?.ID ?? 0;
+            int lastID = Database.tbUser.LastOrDefault()?.ID ?? 0;
             user.ID = lastID + 1;
-            StaticDataBase.tbUser.Add(user as Models.Entities.User);
+            Database.tbUser.Add(user);
         }
     }
 }

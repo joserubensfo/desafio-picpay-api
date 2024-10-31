@@ -1,5 +1,4 @@
-﻿using desafio_picpay.Models.Entities;
-using desafio_picpay.Repositories;
+﻿using desafio_picpay.Repositories;
 
 namespace desafio_picpay.Factories.Repositories
 {

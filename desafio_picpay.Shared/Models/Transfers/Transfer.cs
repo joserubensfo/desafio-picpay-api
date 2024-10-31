@@ -1,6 +1,7 @@
-﻿using desafio_picpay.Models.Entities;
+﻿
+using desafio_picpay.Shared.Models.Entities;
 
-namespace desafio_picpay.Models.Transfers
+namespace desafio_picpay.Shared.Models.Transfers
 {
     public class Transfer
     {

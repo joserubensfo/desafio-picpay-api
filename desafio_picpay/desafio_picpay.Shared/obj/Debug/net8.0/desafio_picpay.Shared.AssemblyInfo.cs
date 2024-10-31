@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("desafio_picpay.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9c5466a9cff584e5feb2af478ab0e1a71062b90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da8c3a5aba37b8a608d842feb6d011baf5d555a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("desafio_picpay.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("desafio_picpay.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

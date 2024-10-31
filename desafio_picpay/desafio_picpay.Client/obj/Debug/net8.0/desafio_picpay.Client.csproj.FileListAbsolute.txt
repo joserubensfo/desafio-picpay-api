@@ -1035,9 +1035,9 @@ C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\bin\Debug\net8.0\desafio_picpay.Shared.pdb
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\obj\Debug\net8.0\webcil\desafio_picpay.Shared.wasm
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\obj\Debug\net8.0\compressed\zpxpp6lbkd.gz
-C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\obj\Debug\net8.0\compressed\it4fa71h6p.gz
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\bin\Debug\net8.0\wwwroot\_framework\Blazored.Toast.wasm
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\bin\Debug\net8.0\wwwroot\_framework\Blazored.Toast.wasm.gz
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\bin\Debug\net8.0\Blazored.Toast.dll
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\obj\Debug\net8.0\webcil\Blazored.Toast.wasm
 C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\obj\Debug\net8.0\compressed\c5yjd8qfzb.gz
+C:\Users\joser\source\repos\desafio_picpay\desafio_picpay\desafio_picpay.Client\obj\Debug\net8.0\compressed\pngxdmk2mk.gz

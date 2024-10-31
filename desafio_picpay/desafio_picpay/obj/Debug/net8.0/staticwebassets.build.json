@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ylZFXlpr8HxR6QR7VXP1XPu1WyyKLluGchOXRPXh0K0=",
+  "Hash": "rPnNJzv5P68Bf1uAgqrVumqhaPfDGHiiZ7xZrQCyrGs=",
   "Source": "desafio_picpay",
   "BasePath": "_content/desafio_picpay",
   "Mode": "Default",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay.Shared\\bin\\Debug\\net8.0\\desafio_picpay.Shared.pdb"
+      "OriginalItemSpec": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Shared\\bin\\Debug\\net8.0\\desafio_picpay.Shared.pdb"
     },
     {
       "Identity": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\desafio_picpay.Shared.wasm",
@@ -6021,25 +6021,6 @@
       "OriginalItemSpec": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Parallel.wasm"
     },
     {
-      "Identity": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\obj\\Debug\\net8.0\\compressed\\it4fa71h6p.gz",
-      "SourceId": "desafio_picpay.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/desafio_picpay.Shared.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\desafio_picpay.Shared.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\desafio_picpay.Shared.pdb"
-    },
-    {
       "Identity": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\obj\\Debug\\net8.0\\compressed\\j8uy08wvei.gz",
       "SourceId": "desafio_picpay.Client",
       "SourceType": "Project",
@@ -6722,6 +6703,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Uri.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\obj\\Debug\\net8.0\\compressed\\pngxdmk2mk.gz",
+      "SourceId": "desafio_picpay.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/desafio_picpay.Shared.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\desafio_picpay.Shared.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\desafio_picpay.Shared.pdb"
     },
     {
       "Identity": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\obj\\Debug\\net8.0\\compressed\\pt4zawq1gw.gz",

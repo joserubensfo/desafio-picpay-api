@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\desafio_picpay.Shared\desafio_picpay.Shared.csproj" />
     <ProjectReference Include="..\desafio_picpay.Client\desafio_picpay.Client.csproj" />
+    <ProjectReference Include="..\desafio_picpay.Shared\desafio_picpay.Shared.csproj" />
   </ItemGroup>
 
 </Project>

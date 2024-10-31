@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio_picpay", "desafio_p
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio_picpay.Client", "desafio_picpay\desafio_picpay.Client\desafio_picpay.Client.csproj", "{A9D3FD66-DC2E-4926-AD7F-3224E01C1F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio_picpay.Shared", "desafio_picpay.Shared\desafio_picpay.Shared.csproj", "{5F9483C4-6BCA-40B9-BABC-9F385EAB67A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio_picpay.Shared", "desafio_picpay\desafio_picpay.Shared\desafio_picpay.Shared.csproj", "{BF68D2BF-30A5-4758-9F71-015E1DF66FE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{A9D3FD66-DC2E-4926-AD7F-3224E01C1F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D3FD66-DC2E-4926-AD7F-3224E01C1F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D3FD66-DC2E-4926-AD7F-3224E01C1F59}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F9483C4-6BCA-40B9-BABC-9F385EAB67A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F9483C4-6BCA-40B9-BABC-9F385EAB67A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F9483C4-6BCA-40B9-BABC-9F385EAB67A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F9483C4-6BCA-40B9-BABC-9F385EAB67A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF68D2BF-30A5-4758-9F71-015E1DF66FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF68D2BF-30A5-4758-9F71-015E1DF66FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF68D2BF-30A5-4758-9F71-015E1DF66FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF68D2BF-30A5-4758-9F71-015E1DF66FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

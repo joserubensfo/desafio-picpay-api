@@ -1815,8 +1815,8 @@
     },
     "desafio_picpay.Shared/1.0.0": {
       "type": "project",
-      "path": "../../desafio_picpay.Shared/desafio_picpay.Shared.csproj",
-      "msbuildProject": "../../desafio_picpay.Shared/desafio_picpay.Shared.csproj"
+      "path": "../desafio_picpay.Shared/desafio_picpay.Shared.csproj",
+      "msbuildProject": "../desafio_picpay.Shared/desafio_picpay.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1862,11 +1862,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay.Shared\\desafio_picpay.Shared.csproj": {
-              "projectPath": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay.Shared\\desafio_picpay.Shared.csproj"
-            },
             "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\desafio_picpay.Client.csproj": {
               "projectPath": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Client\\desafio_picpay.Client.csproj"
+            },
+            "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Shared\\desafio_picpay.Shared.csproj": {
+              "projectPath": "C:\\Users\\joser\\source\\repos\\desafio_picpay\\desafio_picpay\\desafio_picpay.Shared\\desafio_picpay.Shared.csproj"
             }
           }
         }

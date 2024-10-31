@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "desafio_picpay.Client",
   "resources": {
-    "hash": "sha256-a3y8yeyhIQGsKs/XmPjMmYsGX0i7RtYx4/596NDYrUA=",
+    "hash": "sha256-EugRq93haDz5dj4zm/l03SCa+VLdYlx1pU2mL14NObo=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.wpwjx19w55.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "desafio_picpay.Shared.wasm": "sha256-brhxtQQ6i1aeACRTI5pcT8Rw43a8iN1aWtpwfSnxdFU=",
-      "desafio_picpay.Client.wasm": "sha256-PBOE9nUNrR2YnwDrTgtCObZLRbiOUTyw/VQDObMrwbk="
+      "desafio_picpay.Shared.wasm": "sha256-lcKvpk1km4uS9Oo4BZzILXSUCV+qFXARs/ebD15vyBc=",
+      "desafio_picpay.Client.wasm": "sha256-KeMZgUvbQXV72399Rn7wa/qNeWdLvjEyuK/WPuS96ic="
     },
     "pdb": {
-      "desafio_picpay.Shared.pdb": "sha256-WwDlldcjbHXGEIj7NRiFunqbOTKaJWQvJg25IN36OQw=",
-      "desafio_picpay.Client.pdb": "sha256-8BJGvNy1UapLztC5xix4l48SeMhrF1Kfz/EyQba0EG8="
+      "desafio_picpay.Shared.pdb": "sha256-BffSmWiqrtSq8JXAACbFyBJ2xrDt3bRMFhmNw6aKsQc=",
+      "desafio_picpay.Client.pdb": "sha256-ZokbZq+8K7aHCGImMVfQp6zfmqnAouCbvwgss9Z+Mwk="
     }
   },
   "cacheBootResources": true,

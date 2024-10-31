@@ -1,0 +1,8 @@
+*.exe
+*.pdb
+*.manifest
+*.cache
+
+/desafio_picpay/desafio_picpay/bin
+/desafio_picpay/desafio_picpay.Client/bin
+/desafio_picpay/desafio_picpay.Shared/bin
